@@ -26,11 +26,11 @@ In a terminal window:
 
 *git clone https://github.com/skickar/MakeGifMacOS.git
 
-*cd MakeGifMacOS
+*cd MakeGifMacOS*
 
-*chmod +x makegif.sh
+*chmod +x makegif.sh*
 
-*bash makegif.sh FILE_TO_CONVERT NAME_OF_GIF WIDTH_OF_GIF
+*bash makegif.sh FILE_TO_CONVERT NAME_OF_GIF WIDTH_OF_GIF*
 
 May take some time to complete.
 
