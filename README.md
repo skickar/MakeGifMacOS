@@ -24,7 +24,7 @@ To create a GIF from x.mov named "test" that is 800 pixels wide, has a frame rat
 
 In a terminal window:
 
-*git clone https://github.com/skickar/MakeGifMacOS.git
+*git clone https://github.com/skickar/MakeGifMacOS.git*
 
 *cd MakeGifMacOS*
 
