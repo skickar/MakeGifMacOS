@@ -11,23 +11,23 @@ $ brew install imagemagick
 ## HOW TO USE:
 
 #### TEMPLATE: 
-#### bash makegif.sh INFILE*, WIDTH_SIZE*, OUTFILE*, FRAME_RATE (DEFAULT 10), DELAY (DEFAULT 8)
+#### bash makegif.sh INFILE*, OUTFILE*, WIDTH_SIZE, FRAME_RATE (DEFAULT 10), DELAY (DEFAULT 8)
 (* is required, others are optional)
 
 Example: 
-To create a GIF from x.mov named "test" that is 500 pixels wide:
-#### bash makegif.sh x.mov 500 test
+To create a GIF from x.mov named "test" that is 500 pixels (default size) wide:
+#### bash makegif.sh x.mov test
 
 Example: 
-To create a GIF from x.mov named "test" that is 500 pixels wide, has a frame rate of 20 and a delay of 10:
-#### bash makegif.sh x.mov 500 test 20 10
+To create a GIF from x.mov named "test" that is 800 pixels wide, has a frame rate of 20 and a delay of 10:
+#### bash makegif.sh x.mov test 800 20 10
 
 In a terminal window:
 
 git clone https://github.com/skickar/MakeGifMacOS.git
 cd MakeGifMacOS
 chmod +x makegif.sh
-bash makegif.sh FILE_TO_CONVERT WIDTH_OF_GIF NAME_OF_GIF
+bash makegif.sh FILE_TO_CONVERT NAME_OF_GIF WIDTH_OF_GIF
 
 May take some time to complete.
 
