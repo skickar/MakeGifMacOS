@@ -16,11 +16,11 @@ $ brew install imagemagick
 
 Example: 
 To create a GIF from x.mov named "test" that is 500 pixels wide:
-bash makegif.sh x.mov 500 test
+#### bash makegif.sh x.mov 500 test
 
 Example: 
 To create a GIF from x.mov named "test" that is 500 pixels wide, has a frame rate of 20 and a delay of 10:
-bash makegif.sh x.mov 500 test 20 10
+#### bash makegif.sh x.mov 500 test 20 10
 
 In a terminal window:
 
