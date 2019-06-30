@@ -22,21 +22,15 @@ Example:
 To create a GIF from x.mov named "test" that is 800 pixels wide, has a frame rate of 20 and a delay of 10:
 #### bash makegif.sh x.mov test 800 20 10
 
-In a terminal window:
-
+Alt-H2 In a terminal window:
 
 git clone https://github.com/skickar/MakeGifMacOS.git
 
-
 cd MakeGifMacOS
-
 
 chmod +x makegif.sh
 
-
 bash makegif.sh FILE_TO_CONVERT NAME_OF_GIF WIDTH_OF_GIF
-
-
 
 May take some time to complete.
 
