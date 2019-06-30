@@ -10,7 +10,7 @@ $ brew install imagemagick
 
 ## HOW TO USE:
 
-### ARGUMENTS - INFILE*, WIDTH SIZE*, OUTFILE*, FRAME RATE (DEFAULT 10), DELAY (DEFAULT 8)
+#### ARGUMENTS - INFILE*, WIDTH SIZE*, OUTFILE*, FRAME RATE (DEFAULT 10), DELAY (DEFAULT 8)
 (* is required)
 
 EXAMPLE: To create a GIF from x.mov named "test" that is 500 pixels wide:
