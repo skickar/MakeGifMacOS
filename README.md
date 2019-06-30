@@ -1,5 +1,5 @@
 # MakeGifMacOS - 
-## Make a Gif on MacOS from a .Mov file with a shell script
+## Make a GIF on MacOS from a .Mov file with a shell script
 Just a quick tool to make a GIF on a MacOS computer. Requires:
 
 Install FFmpeg & imagemagick
